@@ -20,6 +20,7 @@ def remove_strawberry(contacts)
       if first == :favorite_ice_cream_flavors
         second.delete_if do |flavor|
           flavor == "strawberry"
+        end 
       end 
     end 
   end
